@@ -22,18 +22,40 @@
         * { margin: 0; padding: 0; }
       .buttons { margin-top: 50px;}
     </style>
+    <link rel="stylesheet" href="./css/buttons.css">
 </head>
 <body>
 
     <div class="container text-center mt-5">
-        <h1>HOME</h1>
+        <h1 class="bg-dark text-white rounded-pill">HOME</h1>
     </div>
 
     <div class="container buttons">
         <div class="row">
             <div class="d-flex justify-content-around">
-                <a class="btn btn-info" href="./create/index.html">Cadastrar Usuario</a>
-                <a class="btn btn-info" href="./list/index.html">Listar Usuarios</a>
+
+                <a href="./create/index.html">
+                    <button class="learn-more">
+                        <span class="circle" aria-hidden="true">
+                        <span class="icon arrow"></span>
+                        </span>
+                        <span class="button-text">
+                            Cadastrar Usuario
+                        </span>
+                      </button>
+                </a>
+
+                <a href="./list/index.html">
+                  <button class="learn-more">
+                    <span class="circle" aria-hidden="true">
+                    <span class="icon arrow"></span>
+                    </span>
+                    <span class="button-text">
+                        Listar Usuarios
+                    </span>
+                  </button>
+                </a>
+                
             </div>
         </div>
     </div>
